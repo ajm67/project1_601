@@ -20,6 +20,7 @@ class main1 {
         $tabled = html::generateTable($notate);
         system::printPage($tabled);
     }
+        #this is the function that brings together the different classes
 }
 ?>
 <?php $c = 0; ?>
