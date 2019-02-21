@@ -68,6 +68,7 @@ class csvimport {
                        if ($first) {
                            echo "<th>" . htmlspecialchars($celldata) . "</th>";
                            $first = false;
+                           #the first row will now be notated, and the first variable is no longer active
                        }
                        else{
                            echo "<td>" . htmlspecialchars($celldata) . "</td>";
